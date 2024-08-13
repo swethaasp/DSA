@@ -32,3 +32,31 @@ public class FindPrimeFactors {
 	}
 
 }
+
+
+
+Notice that in each pair, one factor is less than or equal to 
+𝑛
+n
+​
+ , and the other factor is greater than or equal to 
+𝑛
+n
+​
+ . This is due to the multiplication property where:
+
+If both factors were greater than 
+𝑛
+n
+​
+ , their product would exceed 
+𝑛
+n, which is not possible.
+Conversely, if both factors were less than 
+𝑛
+n
+​
+ , their product would be less than 
+𝑛
+n, which would again not cover all possible factor pairs.
+
