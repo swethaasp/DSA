@@ -1,4 +1,5 @@
 //Quick Sort - binary search in recursive way 
+// dont maintain the order of insertion 
 
 package module1;
 
