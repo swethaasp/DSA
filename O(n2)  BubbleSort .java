@@ -43,7 +43,7 @@ public class BubbleSort {
 	}
 
 
-  
+  //Bubble Sort with Early Termination
   
 	private void sortImprovemnet2(int[] numbers) {
 		
@@ -61,6 +61,11 @@ public class BubbleSort {
 		}
 		
 	}
+
+	///sortImprovemnet2
+//i: Keeps track of the number of passes through the array. Each pass places the next largest element in its correct position.
+//swapOccurred: A flag to check if any swaps occurred during the current pass. If no swaps occur, the array is already sorted, and the algorithm can terminate early.
+//Outer Loop
 
 
 	public void swap(int[] numbers, int j, int k) {
