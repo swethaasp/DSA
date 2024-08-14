@@ -191,7 +191,35 @@ public class Linkedlist_arrToLinkedlist {
 		}
 		return head;
 	 }
-	
+
+
+	//insert element before value
+	private Node insertBeforeValue(Node head,int ele,int val) {
+		 if(head==null) {
+			 return null;
+		 }
+		 if(head.data==val) {
+			 return new Node(ele,head);
+		 }
+		 
+		 Node temp =head;
+		 while(temp.next!=null) {
+			 if(temp.next.data==val) {
+				 Node newnode = new Node(ele);
+				 newnode.next=temp.next;
+				 temp.next=newnode;
+				 break;
+			 }
+
+			 /* if (temp.next.data == val) {
+                           Node newNode = new Node(ele, temp.next);
+                            temp.next = newNode;
+                             return head;
+                          */
+			 temp=temp.next;
+		 }
+		 return head;
+	 }
 	
 	public static void main(String[] args) {
 		Linkedlist_arrToLinkedlist linkedList = new Linkedlist_arrToLinkedlist();
@@ -252,6 +280,10 @@ public class Linkedlist_arrToLinkedlist {
 	//insert at kth index
 	System.out.print("insert at kth index : ");
        linkedList.printList(linkedList.insertAtK(head,16,2));
+
+	//insert Before value
+        System.out.print("insert Before value : ");
+	linkedList.printList(linkedList.insertBeforeValue(head,100,5));	
 	
 	}
 }
