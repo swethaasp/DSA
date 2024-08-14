@@ -46,7 +46,7 @@ class Hashtable1{
 Updated Map: {104=Gaurav, 103=Rahul, 102=Ravi, 101=Vijay, 100=Amit}
 Updated Map: {104=Gaurav, 103=Rahul, 102=Ravi, 101=Vijay, 100=Amit}*/
 
-   
+   map.remove("a", 1); // Removes the entry with key "a" if its value is 1
  }  
 }  
 
