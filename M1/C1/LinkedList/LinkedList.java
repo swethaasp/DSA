@@ -30,11 +30,11 @@ public class LinkedList<V> {
     }
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<String>();
-        list.addFront("viswa");
-        list.addFront("axel");
-        list.addFront("is");
-        list.addFront("a");
-        list.addFront("developer");
+        list.addFront("swethaa");
+        list.addFront("varsha");
+        list.addFront("sandya");
+        list.addFront("are");
+        list.addFront("developers");
         System.out.println(list.toString());
         System.out.println(list.find("a").toString());
     }
