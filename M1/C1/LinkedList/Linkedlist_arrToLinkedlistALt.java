@@ -40,6 +40,14 @@ public class Linkedlist_arrToLinkedlist {
 		
 		Node head=linkedList.convertArr2Ll(arr);
 		System.out.println(head.data);
+
+
+		//traverse the ll
+		Node temp=head;
+		while(temp!=null) {
+		 System.out.println(temp.data + " ");
+		 temp=temp.next;
+		}
 	}
 
 }
