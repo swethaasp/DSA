@@ -64,3 +64,31 @@ Both the strings consists of lowercase English alphabets.
 
 
   //Tc -O(n)
+
+
+
+// https://www.geeksforgeeks.org/problems/pattern-searching4145/1
+
+
+class Solution {
+    int search(String text, String pat) {
+        // code here
+        int n=text.length();
+        int m=pat.length();
+        boolean bool=true;
+        for(int i=0;i<=n-m;i++){
+              bool=true;
+            for(int j=0;j<m;j++){
+                if(text.charAt(i+j)!=pat.charAt(j)){
+                    bool=false;
+                   break;
+                }
+            }
+            if(bool){
+                return 1;
+            }
+            
+        }
+        return 0;
+    }
+}
