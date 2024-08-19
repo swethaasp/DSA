@@ -71,3 +71,14 @@ public class Graph {
         }
     }
 }
+
+
+//output
+The program prints the shortest path from node 2 to each other node in the graph.
+
+Path from 2 to 0: None
+Path from 2 to 1: 2 4 3 1
+Path from 2 to 2: 2
+Path from 2 to 3: 2 4 3
+Path from 2 to 4: 2 4
+Path from 2 to 5: 2 5
