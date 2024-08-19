@@ -182,3 +182,26 @@ public class DSAAssignment1 {
         cll.display();
     }
 }
+
+
+
+//output
+
+Array Operations:
+Original Array: [1, 2, 3, 4, 5]
+After Insertion: [1, 2, 3, 4, 5, 6]
+After Deletion: [1, 2, 3, 4, 5]
+
+Linked List Operations:
+Original Linked List: [1, 2, 3, 4, 5]
+After Insertion: [1, 2, 3, 4, 5, 6]
+After Deletion: [1, 2, 3, 4, 5]
+
+Doubly Linked List Operations:
+Original Doubly Linked List: 1 2 3 4 5 
+After Deletion: 2 3 4 5 
+
+Circular Linked List Operations:
+Original Circular Linked List: 1 2 3 4 5 
+After Insertion: 1 2 3 4 5 6 
+After Deletion: 2 3 4 5 6 
