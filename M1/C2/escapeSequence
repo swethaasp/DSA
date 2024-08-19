@@ -1,0 +1,65 @@
+
+\n (Newline):
+
+Inserts a new line in the text. It moves the cursor to the beginning of the next line.
+String text = "Hello\nWorld";
+System.out.println(text);
+// Output:
+// Hello
+// World
+
+
+
+\r (Carriage Return):
+
+Moves the cursor to the beginning of the current line without advancing to the next line. It overwrites the current line.
+String text = "Hello\rWorld";
+System.out.println(text);
+// Output: Worldo (World overwrites Hello)
+
+\t (Tab):
+
+Inserts a horizontal tab in the text. It aligns the text to the next tab stop.
+String text = "Hello\tWorld";
+System.out.println(text);
+// Output: Hello   World (Tab space between Hello and World)
+
+
+\b (Backspace):
+
+Moves the cursor one position back. It typically removes the character at the cursor position in most terminal environments.
+String text = "Hello\bWorld";
+System.out.println(text);
+// Output: HellWorld (The last 'o' is removed)
+
+
+\f (Form Feed):
+
+Moves the cursor to the beginning of the next page or the top of the next page. It's less commonly used and is more relevant in older printers or text formatting.
+String text = "Hello\fWorld";
+System.out.println(text);
+// Output: Hello (and a form feed will start a new page or section before printing World)
+
+
+\\ (Backslash):
+
+Inserts a literal backslash character.
+String text = "Hello\\World";
+System.out.println(text);
+// Output: Hello\World
+
+
+\" (Double Quote):
+
+Inserts a double-quote character within a string. Useful for including quotes in the output.
+String text = "He said, \"Hello World\"";
+System.out.println(text);
+// Output: He said, "Hello World"
+
+
+\' (Single Quote):
+
+Inserts a single-quote character within a string. Useful for including single quotes in the output.
+String text = "It\'s a test";
+System.out.println(text);
+// Output: It's a test
